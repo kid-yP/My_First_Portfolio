@@ -46,3 +46,12 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    article, aside {
+        flex: 1;
+    }
+}
